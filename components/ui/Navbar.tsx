@@ -6,8 +6,6 @@ import NextLink from 'next/link'
 
 export const Navbar = () => {
   const icon = Math.floor(Math.random() * 151 + 1)
-  
-  console.log(icon)
   const { theme } = useTheme()
   return (
     <div style={{
