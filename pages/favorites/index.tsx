@@ -18,7 +18,7 @@ export const Favorites:NextPage = () => {
   return (
     <Layout title={title}>
       {
-        favoritePokemons.length === 0
+        favoritePokemons.length === 0 
         ? (<NoFavorites/>)
         : (
           <FavoritePokemons pokemons={favoritePokemons} />
